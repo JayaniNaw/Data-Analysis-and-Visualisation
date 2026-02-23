@@ -3,7 +3,7 @@ This project aim is to create POWER BI dashboard to visualise and get insights o
 
 # Research Question
 What factors influence the variation in salary ranges across different job titles and agencies in New
-York City government job postings, and how can data visualization help identify these patterns?
+York City government job postings, and how can data visualisation help identify these patterns?
 
 # Dataset Information
 Data Source : https://data.cityofnewyork.us/City-Government/Jobs-NYC-Postings/kpav-sd4t/about_data </br>
