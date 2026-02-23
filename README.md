@@ -45,7 +45,7 @@ Steps followed from Data Analytics Life Cycle.
 
 - Career level is identified as the strongest predictor of hourly salary in NYC government job postings.
 
-- The regression model produced an R-squared value of 0.32, suggesting that career level explains approximately 32% of the variation in hourly salary.
+- The Regression Model produced an R-squared value of 0.32, suggesting that career level explains approximately 32% of the variation in hourly salary.
 
 - Education level shows a weak positive correlation with salary (r = 0.21, R² = 0.04), indicating that higher education contributes modestly to salary differences.
 
