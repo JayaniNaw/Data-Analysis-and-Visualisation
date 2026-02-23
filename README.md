@@ -28,13 +28,14 @@ Steps followed from Data Analytics Life Cycle.
 5. Communication (Dashboard Design)
 
 # Data Preparation
-- Changing Data Types (For instance Date Column fron string to Date Type).
+- Changing Data Types (For instance Date Column fron Text to Date Type).
 - Removing errors.
 - Irrelevant or redundant columns were removed to reduce noise.
 - Handling missing values (For instance, Categorical values: Imputed using the mode, Numerical values: Imputed using the mean).
 - Feature Engineering
    - For example, From Salary Range and To Salary Range has different salary frequencies; annual, hourly, daily. First calculated the average salary and then standardised to hourly salary.
-   - Google Collab Pyhton language used to extract the text 
+   - Google Collab Pyhton language used to extract the text from minimal Qualification, Job Description.
+   - Created new columns based on the extracted and standardised data such as Pay Cattegory (High,Mid,Low), Education Level, Years of Experience.  
 
 # Key Insights
 
@@ -59,3 +60,7 @@ The insights generated from this analysis can support HR and policy decision-mak
 
 # Dashboard Preview
 <img width="1550" height="811" alt="image" src="https://github.com/user-attachments/assets/a172889b-8f1a-4f0d-9640-de6db129af72" />
+<img width="1542" height="811" alt="image" src="https://github.com/user-attachments/assets/a49c2672-40c8-45b5-8799-d533f4e669de" />
+<img width="1268" height="669" alt="image" src="https://github.com/user-attachments/assets/79b431bb-559c-4e78-a873-917ff60197ce" />
+
+
