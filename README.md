@@ -35,20 +35,27 @@ Steps followed from Data Analytics Life Cycle.
 - Feature Engineering
    - For example, From Salary Range and To Salary Range has different salary frequencies; annual, hourly, daily. First calculated the average salary and then standardised to hourly salary.
    - Google Collab Pyhton language used to extract the text from minimal Qualification, Job Description.
-   - Created new columns based on the extracted and standardised data such as Pay Cattegory (High,Mid,Low), Education Level, Years of Experience.  
+   - Created new columns based on the extracted and standardised data such as Pay Cattegory (High,Mid,Low), Education Level, Years of Experience.
+ 
+# Model Planning and Model Building
+- Multiple Linear Regression model was used to examine how each factor influence on the hourly salary.
+- For the model building R script was used within Power BI’s R scripting environment.
+- The target variable: Hourly Salary
+
+- Predictor variables included:
+Agency, Business Title, Career Level, Civil Title, Division, Education Level, Experience (Years), Full/Part-Time, Posting Type
+
+- Model performance was evaluated using R-squared, Adjusted R-squared, F-statistic, and p-values.
 
 # Key Insights
 
-- The Power BI dashboard provides interactive visualisations across the Overview and Details pages, enabling exploration of salary patterns and relationships between key variables.
-
-- Analysis from the Details and Modelling pages indicates that career level, education level, and years of experience significantly influence the hourly salary rate.
-
+- The Power BI dashboard provides interactive visualisations across the Overview and Details pages, enabling exploration of hourly salary patterns and relationships between key variables.
+- The regression model achieved an R-squared value of 0.32, indicating that approximately 32% of the variation in hourly salary is explained collectively by the included predictors.
 - Career level is identified as the strongest predictor of hourly salary in NYC government job postings.
-
-- The Regression Model produced an R-squared value of 0.32, suggesting that career level explains approximately 32% of the variation in hourly salary.
-
-- Education level shows a weak positive correlation with salary (r = 0.21, R² = 0.04), indicating that higher education contributes modestly to salary differences.
-
+- Education Level also showed a statistically significant positive relationship with hourly salary.
+- Some variables, such as Agency and Business Title, were not statistically significant predictors in this model.
+- The overall model was statistically significant (p < 0.001), suggesting that the predictors jointly contribute to explaining hourly salary variation.
+  
 # Business Impact
 
 The insights generated from this analysis can support HR and policy decision-making by:
