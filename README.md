@@ -36,6 +36,7 @@ Steps followed from Data Analytics Life Cycle.
    - For example, From Salary Range and To Salary Range has different salary frequencies; annual, hourly, daily. First calculated the average salary and then standardised to hourly salary.
    - Google Collab Pyhton language used to extract the text from minimal Qualification, Job Description.
    - Created new columns based on the extracted and standardised data such as Pay Cattegory (High,Mid,Low), Education Level, Years of Experience.
+- Transform Data (Replace Values (0,1,2), Used Merge Query Technique)
  
 # Model Planning and Model Building
 - Multiple Linear Regression model was used to examine how each factor influence on the hourly salary.
